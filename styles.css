@@ -1,0 +1,111 @@
+body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://www.freepik.com/free-vector/download-background-light-movement-abstract_5940746.htm#query=motion%20background&position=2&from_view=keyword&track=ais&uuid=47c0e712-f3d5-4f27-b9e5-278e72c58601');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px; /* Limit the width of the container */
+    margin: auto; /* Center the container horizontally */
+}
+
+h1 {
+    color: #3498db;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.theme-toggle button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle button:hover {
+    background-color: #2980b9;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .todo-container {
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.priority {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Additional styles for the date */
+.date {
+    margin-left: 10px;
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
