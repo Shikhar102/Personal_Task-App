@@ -1,29 +1,32 @@
-# Todo List App
+# Todo List Web Application
 
-A simple todo list application where users can manage their tasks with priorities and due dates.
+This is a simple Todo List web application that allows users to add tasks with priorities and due dates.
 
-## Getting Started
+## Features
 
-1. **Clone this repository:**
+- Add tasks with a description.
+- Set the priority of tasks (Low, Medium, High).
+- Assign due dates to tasks.
+- Toggle between light and dark themes.
 
-   ```bash
-   git clone https://github.com/Shikhar102/personal-tasks-app.git
-Open index.html in a web browser.
-Usage
-Enter a task in the input field.
-Select a priority level and due date.
-Click the "Add Task" button to add the task.
-View and update tasks in the User Activity section.
-Features
-Add Task: Users can add tasks with priority and due dates.
-User Activity: View and update tasks in the User Activity section.
-Contributing
-Feel free to contribute to the development of this project by submitting pull requests.
+## Libraries Used
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- [date-fns](https://date-fns.org/) - A library for handling dates in JavaScript.
 
-csharp
-Copy code
+## Usage
 
-Copy and paste this content into a new `README.md` file in the root of your project. Mark
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+## How to Add a Task
+
+1. Enter the task description in the "Add a new task" input field.
+2. Select the priority of the task from the dropdown menu.
+3. Choose the due date for the task using the date input field.
+4. Click the "Add Task" button to add the task to the list.
+
+## Theme Toggle
+
+- Click the "Toggle Theme" button to switch between light and dark themes.
+
+
